@@ -128,7 +128,12 @@ class ObsAdapter extends AbstractAdapter
 
     public function writeStream($path, $resource, Config $config)
     {
-        // TODO: Implement writeStream() method.
+        $this->client->putObject([
+            'Bucket' => $this->bucket,
+            'Key' => $path,
+            'Body' => $resource
+        ]);
+        return true;
     }
 
     public function update($path, $contents, Config $config)
