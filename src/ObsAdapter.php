@@ -221,6 +221,13 @@ class ObsAdapter extends AbstractAdapter
         // TODO: Implement getVisibility() method.
     }
 
+    /**
+    补充url方法获取链接
+    **/
+    public function getUrl($path) {
+        return $this->normalizeHost().'/'.$path;
+    }
+
     protected function normalizeHost()
     {
         if ($this->isCName) {

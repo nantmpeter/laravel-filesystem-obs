@@ -4,6 +4,8 @@
 <a href="https://support.huaweicloud.com/sdk-php-devg-obs/obs_28_0001.html">Obs</a> storage for Laravel based on <a href="https://github.com/minz/huaweicloud-sdk-php-obs">minz/huaweicloud-sdk-php-obs</a>.
 </p>
 
+## 说明
+原包部分功能无法使用，补充完整后自己需要使用传composer，原作者继续维护之后就合并过去
 
 ## 扩展包要求
 
@@ -12,7 +14,7 @@
 ## 安装命令
 
 ```shell
-$ composer require "minz/laravel-filesystem-obs" -vvv
+$ composer require "nantmpeter/laravel-filesystem-obs" -vvv
 ```
 
 ## 配置

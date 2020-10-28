@@ -1,12 +1,12 @@
 {
-    "name": "minz/laravel-filesystem-obs",
+    "name": "nantmpeter/laravel-filesystem-obs",
     "description": "华为云OBS laravel filesystem 适配包",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "minz",
-            "email": "zhaomin2719@gmail.com"
+            "name": "nantmpeter",
+            "email": "nantm_peter@qq.com"
         }
     ],
     "minimum-stability": "dev",
